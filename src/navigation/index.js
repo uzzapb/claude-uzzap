@@ -19,7 +19,7 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Login"
+        initialRouteName="MainMenu"
         screenOptions={{
           headerStyle: {
             backgroundColor: '#4CAF50',
