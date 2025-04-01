@@ -83,6 +83,60 @@ uzzap-chat/
 │   └── utils/              # Helper functions and utilities
 ```
 
+# project stucture
+
+claude-uzzap/
+├── App.js
+├── app.json
+├── babel.config.js
+├── package.json
+├── tailwind.config.js
+├── .gitignore
+├── README.md
+├── assets/
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── icon.png
+│   └── splash.png
+├── src/
+│   ├── assets/
+│   │   ├── buddies-icon.png
+│   │   ├── chat-icon.png
+│   │   ├── chatrooms-icon.png
+│   │   ├── default-avatar.png
+│   │   ├── friends-icon.png
+│   │   ├── games-icon.png
+│   │   ├── help-icon.png
+│   │   ├── music-icon.png
+│   │   ├── private-room-icon.png
+│   │   ├── public-room-icon.png
+│   │   ├── settings-icon.png
+│   │   └── uzzap-logo.png
+│   ├── components/
+│   │   ├── ChatMessage.js
+│   │   ├── RoomItem.js
+│   │   └── UserStatusBadge.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useRealtime.js
+│   ├── navigation/
+│   │   └── index.js
+│   ├── screens/
+│   │   ├── ChatRoomsScreen.js
+│   │   ├── ChatScreen.js
+│   │   ├── ForgotPasswordScreen.js
+│   │   ├── HelpScreen.js
+│   │   ├── LoginScreen.js
+│   │   ├── MainMenuScreen.js
+│   │   ├── QuickStartScreen.js
+│   │   └── RegisterScreen.js
+│   ├── services/
+│   │   └── supabase.js
+│   └── utils/
+│       ├── dateUtils.js
+│       └── validators.js
+└── supabase/
+    └── schema.sql
 ## Usage
 
 1. **Register**: Create a new account

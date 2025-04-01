@@ -1,0 +1,14 @@
+{
+  "name": "claude-uzzap",
+  "expo": {
+    "name": "uzzap-chat",
+    "slug": "uzzap-chat",
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "./App.js",
+    "extra": {
+      "eas": {}
+    }
+  }
+}
